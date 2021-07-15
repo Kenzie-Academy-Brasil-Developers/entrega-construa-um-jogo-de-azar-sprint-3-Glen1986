@@ -1,0 +1,27 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.content {
+  margin: auto;
+  flex-direction: column;
+}
+.content table tr {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .content table tr {
+    display: flex;
+    flex-direction: row;
+  }
+}
