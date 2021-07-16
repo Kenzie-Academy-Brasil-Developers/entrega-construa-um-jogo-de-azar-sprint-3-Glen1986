@@ -18,7 +18,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+table{
+  border: 4px solid green;
+}
 @media screen and (min-width: 500px) {
   .content table tr {
     display: flex;
